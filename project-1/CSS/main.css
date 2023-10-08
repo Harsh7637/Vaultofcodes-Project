@@ -1,0 +1,744 @@
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    width: 100%;
+    background-color:#2B2B2B;
+    position: fixed;
+}
+.headinn{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 80px;
+    font-family: Arial, sans-serif;
+}
+.img{
+    display: flex;
+    width: 100px;
+    position: relative;
+    right: 12%;
+    
+}
+.icon{
+    width: 100px;
+}
+.nav-bar{
+    position: relative;
+    right: 26%;
+    align-items: center;
+    display: flex;
+}
+.nav-bar a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    font-weight: 100;
+}
+.nav-bar a:hover{
+    transition: .4s;
+    color: gray;
+}
+
+.nav-icon{
+    display: flex;
+    position: relative;
+    align-items: center;
+    left: 12%;
+}
+.nav-icon i {
+    padding-right: 30px;
+    font-size: 25px;
+    color: white;
+}
+.nav-icon i:hover{
+    transition: .2s;
+    transform: scale(1.2);
+}
+.sec{
+    display: flex;
+    padding-top: 77px;
+}
+.video 
+{
+    width:100%;
+}
+.video1{
+    height: 100%;
+    width: 100%;
+}
+.video1:hover{
+    transition: opacity .4s;
+    opacity: 0.8;
+}
+.carre{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    font-weight:bolder;
+}
+.underline{
+    position: absolute;
+    top: 22%;
+    left: 20%;
+    opacity: 0.4;
+    font-family: Arial, sans-serif;
+}
+.Inter{
+    position: absolute;
+    top: 45%;
+    left: 19.2%;
+    font-family: Arial, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+}
+.inter-head{
+    position: absolute;
+    top: 44%;
+    left: 19%;
+    font-size: 58px;
+    font-weight: 600;
+}
+.redd{
+    position: absolute;
+    top: 63%;
+    left: 19%;
+    font-size: 62px;
+    font-weight: 800;
+    text-shadow: 3px 4px #FF0000;
+    margin-top: 45px;
+}
+.page-cont{
+    display: flex;
+   width: 100%;
+   height: 100%;
+}
+.page-img{
+    display: flex;
+    margin-top: 6%;
+    width: 30%;
+    margin-left: 9%;
+    margin-bottom: 1%;
+}
+.page-text{
+    margin-top: 14%;
+    margin-left: 15%;
+    font-size: .875rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+}
+.join{
+    font-weight: 100;
+}
+.title{
+    top: 6%;
+    position: relative;
+    right: 9%;
+    font-size: 33px;
+    font-family: inherit;
+    font-weight: 200;
+}
+.pra{
+    top: 14%;
+    position: relative;
+    right: 37%;
+    font-size: 23px;
+    font-family: inherit;
+    font-weight: 200;
+    line-height: 41px;
+}.Intern1{
+    margin-top: 6%;
+}
+.boxes{
+    display: flex;
+    background-color: black;
+    padding-top: 6%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+.box1{
+    border: 1px solid white;
+    width: 400px;
+    height: 400px;
+    margin: 2%
+}
+.box1:hover{
+    transition: .4s;
+    transform: scale(1.05);
+}
+.web-text{
+    color: white;
+    font-weight: 600;
+    width: 80%;
+    padding-left: 16%;
+    font-size: 33px;
+    padding-top: 10%;
+}
+.list{
+    color: white;
+    padding-left: 19%;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-top: 4%;
+}
+.button1{
+    border-radius: 2px;
+  background-color: deepskyblue;
+  border: 1px solid transparent;
+  border-radius: .75rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: .75rem 1.2rem;
+  text-align: center;
+  text-decoration: none #6B7280 solid;
+  text-decoration-thickness: auto;
+  transition-duration: .2s;
+  transition-property: background-color,border-color,color,fill,stroke;
+  transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  margin-left: 29%;
+  margin-top: 3%;
+}
+
+.button1:hover {
+  background-color: #374151;
+}
+
+.button1:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+.box2{
+    border: 1px solid white;
+    width: 400px;
+    height: 400px;
+    margin: 2%
+}
+.box2:hover{
+    transition: .4s;
+    transform: scale(1.05);
+}
+.box3{
+    border: 1px solid white;
+    width: 400px;
+    height: 400px;
+    margin: 2%
+}
+.box3:hover{
+    transition: .4s;
+    transform: scale(1.05);
+}
+.box4{
+    border: 1px solid white;
+    width: 400px;
+    height: 400px;
+    margin: 2%
+}
+.box4:hover{
+    transition: .4s;
+    transform: scale(1.05);
+}
+.box5{
+    border: 1px solid white;
+    width: 400px;
+    height: 400px;
+    margin: 2%
+}
+.box5:hover{
+    transition: .4s;
+    transform: scale(1.05);
+}
+.boxes2{
+    background-color: black;
+    display: flex;
+    padding-left: 20%;
+    padding-bottom: 5%;
+}
+.last1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+.logo-new{
+    width: 20%;
+}
+.ncs-img{
+    width: 20%;
+    height: 18%;
+}
+.tag{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.about{
+    padding-right: 20%;
+}
+.contact{
+    margin-right: 21%;
+}
+.email{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 4%;
+    border-radius: 3px;
+}
+.email:hover{
+    transition: .3s;
+    transform: scale(1.2);
+}
+.b{
+    width: 16%;
+    padding: 12px;
+    border: 1px solid black;
+}
+
+@media screen and (max-width:340px) {
+    *{
+        width: 340px;
+    }
+    .container{
+        width: 340px;
+    }
+    .headinn{
+        width: 340px;
+        height: 40px;
+    }
+    .img{
+        right: 18px;
+    }
+    .icon{
+        width: 80px;
+        margin-left: 75px;
+    }
+    
+
+    .nav-bar{
+        right: 0%;
+        padding-right: 11px;
+    }
+    .nav-icon{
+        left: 0%;
+    }
+    .nav-icon i {
+        font-size: 12px;
+        padding: 4px;
+        width: 10px;
+    }
+    .nav-bar a{
+        padding: 0;
+        font-size: 6px;
+        width: 29px;
+    }
+    .sec{
+        width: 340px;
+        margin-top: 0px;
+    }
+    .video{
+        margin-top: -12%;
+        width: 340px;
+    }
+    .carre{
+        font-size: 5px;
+        top: 8%;
+        left: 20%;
+    }
+    .underline{
+        width: 200px;
+        font-size: 5px;
+        top: 8.1%;
+        
+    }
+    .Inter{
+        font-size: 8px;
+        top: 13.2%;
+    }
+    .inter-head{
+        font-size: 10px;
+        top: 15%;
+    }
+    .redd{
+        font-size: 10px;
+        top: 14%;
+    }
+    .page-img{
+        width: 123px;
+        height: 175px;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+    .page-text{
+        width: 130px;
+        margin-left: 4%;
+        height: 160px;
+        margin-top: 15%;
+        padding-top: 0%;
+    }.join{
+        font-size: 5px;
+        width: 75px;
+
+    }
+    .title{
+        font-size: 7px;
+        right: 57%;
+        width: 120px;
+    }
+    .pra{
+        width: 142px;
+        right: 149%;
+        font-size: 6px;
+        line-height: 10px;
+    }
+    .box1{
+        width: 93px;
+        height: 100px;
+    }
+    .box2{
+        width: 93px;
+        height: 100px;
+    }
+    .box3{
+        width: 93px;
+        height: 100px;
+    }
+    .box4{
+        width: 100px;
+        height: 100px;
+    }
+    .box5{
+        width: 100px;
+        height: 100px;
+    }
+    .web-text{
+        font-size: 8px;
+    }
+    .list{
+        font-size: 5px;
+        width: 120px;
+    }
+.list li {
+    width: 120px;
+}
+    .button1{
+        font-size: 3px;
+        line-height: 4px;
+        padding: 0.75px 1.2px;
+    }
+    .boxes2{
+        justify-content: center;
+        padding-left: 0;
+    }
+    .boxes{
+        padding: 1%;
+        padding-left: 2%;
+    }.about{
+        padding-right: 0;
+        padding-left: 6%;
+    }
+    .contact{
+        margin-right: 6%;
+       
+    }.a{
+        width: 60px;
+    }.b{
+        width: 122px;
+    }
+
+    }
+
+    @media screen and (max-width: 576px){
+     .img{
+        margin-left: 1%;
+        
+     }  
+     .nav-bar a{
+        margin-left: 10%;
+        padding: 0%;
+    
+     }.video1{
+        width: 55rem;
+        height: 31rem;
+     }
+     .Inter{
+        top: 16rem;
+     }
+     .inter-head{
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+     }
+     .redd{
+        top: 21rem;
+        font-size: 1.2rem;
+     }
+     .page-cont{
+        width: 54.1rem;
+     }
+     .page-img{
+        width: 28rem;
+        height: 28rem;
+        margin-top: 6rem;
+     }
+     .page-text{
+        margin-left: 3rem;
+        font-size: 0.6rem;
+     }
+     .title{
+        right: 10%;
+        font-size: 1.4rem;
+     }
+     .pra{
+        font-size: 0.9rem;
+        right: 40%;
+        line-height: 2rem;
+     }
+     .Intern1{
+        width: 55rem;
+    
+     }
+     .box1{
+        width: 20rem;
+        height: 20rem;
+     }
+     .box2{
+        width: 20rem;
+        height: 20rem;
+     } .box3{
+        width: 20rem;
+        height: 20rem;
+     } .box4{
+        width: 18rem;
+        height: 20rem;
+     } .box5{
+        width: 18rem;
+        height: 20rem;
+     }
+     .web-text{
+        font-size: 1.2rem;
+     }.list{
+        font-size: 1rem;
+     }
+     .button1{
+        font-size: 0.7rem;
+        margin-top: 11%;
+     }
+     .boxes2{
+        padding-left: 14%;
+     }
+     .last1{
+        width: 54rem;
+     }
+     .tag{
+        width: 54rem;
+     }
+     .email{
+        width: 54rem;
+     }
+    }
+    @media screen and (min-width: 576px){
+        .img{
+            margin-left: 1%;
+            
+         }  
+         .nav-bar a{
+            margin-left: 10%;
+            padding: 0%;
+        
+         }.video1{
+            width: 56rem;
+            height: 31rem;
+         }
+         .Inter{
+            top: 16rem;
+         }
+         .inter-head{
+            font-size: 1.2rem;
+            line-height: 1.7rem;
+         }
+         .redd{
+            top: 21rem;
+            font-size: 1.2rem;
+         }
+         .page-cont{
+            width: 54.1rem;
+         }
+         .page-img{
+            width: 28rem;
+            height: 28rem;
+            margin-top: 6rem;
+         }
+         .page-text{
+            margin-left: 3rem;
+            font-size: 0.6rem;
+         }
+         .title{
+            right: 10%;
+            font-size: 1.4rem;
+         }
+         .pra{
+            font-size: 0.9rem;
+            right: 40%;
+            line-height: 2rem;
+         }
+         .Intern1{
+            width: 55rem;
+        
+         }
+         .box1{
+            width: 20rem;
+            height: 20rem;
+         }
+         .box2{
+            width: 20rem;
+            height: 20rem;
+         } .box3{
+            width: 20rem;
+            height: 20rem;
+         } .box4{
+            width: 18rem;
+            height: 20rem;
+         } .box5{
+            width: 18rem;
+            height: 20rem;
+         }
+         .web-text{
+            font-size: 1.2rem;
+         }.list{
+            font-size: 1rem;
+         }
+         .button1{
+            font-size: 0.7rem;
+            margin-top: 11%;
+         }
+         .boxes2{
+            padding-left: 14%;
+         }
+         .last1{
+            width: 54rem;
+         }
+         .tag{
+            width: 54rem;
+         }
+         .email{
+            width: 54rem;
+         }
+    }
+    @media screen and (min-width: 1150px) {
+        .img{
+            margin-left: 1%;
+            
+         }  
+         .nav-bar a{
+            margin-left: 10%;
+            padding: 0%;
+        
+         }.video1{
+            width: 100%;
+            height: 100%;
+         }
+         .Inter{
+            top: 20rem;
+         }
+         .inter-head{
+            font-size: 3.625rem;
+            line-height: 3.7rem;
+         }
+         .redd{
+            top: 29rem;
+            font-size: 3.625rem;
+         }
+         .page-cont{
+            width: 100%;
+         }
+         .page-img{
+            width: 30rem;
+            height: 37rem;
+            margin-top: 5rem;
+            margin-left: 6%;
+            margin-bottom: 0%;
+         }
+         .page-text{
+            padding-left: 14.313rem;
+            font-size: 0.6rem;
+         }
+         .join{
+            font-weight: 100;
+            right: 10%;
+            position: relative;
+            padding-top: 2%;
+         }
+         .title{
+            right: 10%;
+            font-size: 1.4rem;
+            right: 16%;
+            font-size: 2.063rem;
+         }
+         .pra{
+            font-size: 1.438rem;
+            right: 42%;
+            line-height: 2.563rem;
+            padding-top: 2%;
+         }
+         .Intern1{
+            width: 100%;
+        
+         }
+         .box1{
+            width: 20rem;
+            height: 20rem;
+         }
+         .box2{
+            width: 20rem;
+            height: 20rem;
+         } .box3{
+            width: 20rem;
+            height: 20rem;
+         } .box4{
+            width: 20rem;
+            height: 20rem;
+         } .box5{
+            width: 20rem;
+            height: 20rem;
+         }
+         .web-text{
+            font-size: 1.2rem;
+         }.list{
+            font-size: 1rem;
+         }
+         .button1{
+            font-size: 0.7rem;
+            margin-top: 11%;
+         }
+         .boxes{
+            justify-content: center;
+         }
+         .boxes2{
+            justify-content: center;
+            padding-right: 10rem;
+         }
+         .last1{
+            width: 96%;
+         }
+         .tag{
+            width: 96%;
+         }
+         .email{
+            width: 96%;
+         }   
+    }
+

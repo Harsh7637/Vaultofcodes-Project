@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
+</head>
+<body style="background:linear-gradient(90deg, hsla(344, 100%, 95%, 1) 0%, hsla(345, 100%, 88%, 1) 100%);"> 
+    <div class="container">
+        <div class="title">Registration
+        <div class="row">
+            <div class="small-12 medium-2 large-2 columns" style="height: 200px;">
+
+              <div class="circle">
+                <img class="profile-pic" src="https://t3.ftcdn.net/jpg/03/46/83/96/360_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg">
+            </div>
+            <div class="p-image">
+                <i class="ri-camera-2-fill" id="camera-icon"></i> <!-- Remix Icon for the camera -->
+                <input class="file-upload" type="file" accept="image/*" id="file-input" style="display: none;">
+            </div>
+            
+           </div>
+         </div>
+        </div>
+        <form action="#" class="form-1">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Full Name</span>
+                    <input type="text" placeholder="Enter your name" >
+                </div>
+                <div class="input-box">
+                    <span class="details">Email</span>
+                    <input type="text" placeholder="Enter your Email" >
+                </div>
+                <div class="input-box">
+                    <span class="details">Password</span>
+                    <input type="password" id="password" placeholder="Enter your password" >
+                </div>
+                <div class="input-box">
+                    <span class="details">Confirm Password</span>
+                    <input type="password" id="confirmPassword" placeholder="Confirm your password" >
+                    <div id="passwordStrength"></div>
+                </div>
+                <div class="input-box">
+                    <span class="details">Date of Birth</span>
+                    <input type="text" placeholder="Enter your DOB" >
+                </div>
+            </div>
+            <div class="gender-details">
+                <input type="radio" name="Gender" id="dot-1">
+                <input type="radio" name="Gender" id="dot-2">
+                <input type="radio" name="Gender" id "dot-3">
+                <span class="gender-title">Gender</span>
+                <div class="category">
+                    <label for="dot-1">
+                        <span class="dot one"></span>
+                        <span class="gender">Male</span>
+                    </label>
+                    <label for="dot-2">
+                        <span class="dot two"></span>
+                        <span class="gender">Female</span>
+                    </label>
+                    <label for="dot-3">
+                        <span class="dot three"></span>
+                        <span class="gender">Other</span>
+                    </label>
+                </div>
+            </div>
+            <div class="check">
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1" style="font-family:sans-serif; opacity: 0.8;"> I agree to the terms and conditions of <a href="#"> <b>Privacy Policy</b></a></label><br>
+            </div>
+            <div class="button">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+    </div>
+    <script src="app.js"></script>    
+</body>
+</html>

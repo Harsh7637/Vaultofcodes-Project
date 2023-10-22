@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website Landing Page With Full Screen Draggable Image Slider - Html, Css & Javascript</title>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  </head>
+  <body>
+    <header>
+      <div class="nav-bar">
+        <a href="#Home" class="logo">H</a>
+        <div class="navigation">
+          <div class="nav-items">
+            <i class="uil uil-times nav-close-btn"></i>
+            <a href="#Home">
+              <i class="uil uil-home"></i> Home </a>
+            <a href="#AboutMe">
+              <i class="uil uil-compass"></i> About Me </a>
+            <a href="#Projects">
+              <i class="uil uil-info-circle"></i> Projects </a>
+            <a href="#Contact">
+              <i class="uil uil-envelope"></i> Contact </a>
+          </div>
+        </div>
+        <i class="uil uil-apps nav-menu-btn"></i>
+      </div>
+    </header>
+    <section class="home" id="Home">
+      
+      <div class="swiper bg-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/bg1.jpg" alt="">
+            <div class="text-content-a">
+              <h1 class="title-a">Harsh Sharma</h1>
+              <span class="span-1">Computer Science</span>
+            </div>
+          </div>
+          <div class="swiper-slide dark-layer">
+            <div class="media-icons">
+              <a href="#">
+                <i class="uil uil-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="uil uil-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="uil uil-twitter"></i>
+              </a>
+            </div>
+            <img src="images/bg2.jpg" alt="">
+            <div class="text-content">
+              <h2 class="title">About <span>Me</span>
+              </h2>
+              <p>Hello, I'm Harsh Sharma, an aspiring engineer with a passion for problem-solving and innovation. I may be new to the field, but my enthusiasm for engineering knows no bounds.
+
+                As someone just starting my journey in engineering, I'm eager to explore the endless possibilities and challenges that this field offers.
+                
+                While I may not have professional experience, I'm a fast learner and a firm believer in the power of continuous learning. </p>
+            </div>
+          </div>
+          <div class="swiper-slide dark-layer">
+            <div class="media-icons">
+              <a href="#">
+                <i class="uil uil-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="uil uil-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="uil uil-twitter"></i>
+              </a>
+            </div>
+            <img src="images/bg3.jpg" alt="">
+            <div class="text-content">
+              <h2 class="title">Projects
+              </h2>
+              <p>I've created two projects: a Netflix clone and a portfolio website .
+                <br/>
+                Netflix Clone:
+                
+                I've designed a Netflix clone using HTML and CSS.
+                The clone likely includes a similar layout and styling to the actual Netflix website.
+                It may feature elements like a homepage with movie or TV show thumbnails, a navigation bar, and responsive design for various screen sizes.
+                <br/>
+                Portfolio Website:
+                I've built a personal portfolio website using HTML, CSS, and JavaScript.
+                The portfolio website showcases your skills, projects, and personal information.
+                </p>
+              <button class="read-btn"><a href="#Projects" style="color: black;">Projects</a> <i class="uil uil-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="media-icons">
+              <a href="#">
+                <i class="uil uil-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="uil uil-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="uil uil-twitter"></i>
+              </a>
+            </div>
+            <img src="images/bg4.jpg" alt="">
+            <div class="text-content">
+              <h2 class="title">Contact <span>Me</span>
+              </h2>
+              <p>I will read all emails. Send me any message you want and I'll get back to you.
+                <br>
+                <br>
+                I need your Name and Email Address, but you won't receive anything other than your reply.</p>
+              <button class="read-btn"><a href="#Contact" style="color: black;">Contact Me</a> <i class="uil uil-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-slider-thumbs">
+        <div class="swiper-wrapper thumbs-container">
+          <img src="images/bg1.jpg" class="swiper-slide" alt="">
+          <img src="images/bg2.jpg" class="swiper-slide" alt="">
+          <img src="images/bg3.jpg" class="swiper-slide" alt="">
+          <img src="images/bg4.jpg" class="swiper-slide" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="projects section" id="Projects">
+      <h2 class="section__title-1">
+         <span>Projects</span>
+      </h2>
+      <div class="projects__container container grid" style="display: flex;">
+         <article class="projects__card">
+            <div class="projects__image">
+               <img src="images/project-1.jpg" alt="image" class="projects__img">
+
+               <a href="#" class="projects__button button">
+                  <i class="ri-arrow-right-up-line"></i>
+               </a>
+            </div>
+            <div class="projects__content">
+               <h3 class="projects__subtitle">Website</h3>
+               <h2 class="projects__title">Portfolio</h2>
+
+               <p class="projects__description">
+                  This webpage stands as a prime example of my commitment to delivering excellence in web design. 
+                  I meticulously crafted this page with an emphasis on aesthetics, ease of use, and optimal performance
+               </p>
+            </div>
+
+            <div class="projects__buttons">
+               <a href="https://github.com/Harsh7637/Portfolio" target="_blank" class="projects__link">
+                  <i class="uil uil-github">View</i>
+               </a>
+               
+            </div>
+         </article>
+         <article class="projects__card">
+            <div class="projects__image">
+               <img src="images/project-2.jpg" alt="image" class="projects__img">
+
+               <a href="#" class="projects__button button">
+                  <i class="ri-arrow-right-up-line"></i>
+               </a>
+            </div>
+            <div class="projects__content">
+               <h3 class="projects__subtitle">Website</h3>
+               <h2 class="projects__title">Netflix Clone</h2>
+
+               <p class="projects__description">
+                  This webpage stands as a prime example of my commitment to delivering excellence in web design. 
+                  I meticulously crafted this page with an emphasis on aesthetics, ease of use, and optimal performance
+               </p>
+            </div>
+
+            <div class="projects__buttons">
+               <a href="https://github.com/Harsh7637/Netflix-clone" target="_blank" class="projects__link">
+                  <i class="uil uil-github">View</i>
+               </a>
+               
+            </div>
+         </article>
+      </div>
+   </section>
+   
+         <!--==================== CONTACT ====================-->
+         <section class="contact section" id="Contact">
+          <div class="contact__container grid" style="display: flex; ">
+             <div class="contact__data">
+                <h2 class="section__title-2">
+                   <span>Contact Me</span>
+                </h2>
+
+                <p class="contact__description-1">
+                   I will read all emails. Send me any 
+                   message you want and I'll get back to you.
+                   
+                </p>
+
+                <p class="contact__description-1">
+                   I need your <b>Name</b> and <b>Email Address</b>, but 
+                   you won't receive anything other than your reply.
+                </p>
+
+                <div class="geometric-box"></div>
+             </div>
+             <div class="contact__mail">
+                <h2 class="contact__title">
+                   Send Me A Message
+                </h2>
+                <form action=""  class="contact__form" id="contact-form">
+                   <div class="contact__group">
+                      <div class="contact__box">
+                         <input type="text" name="user_name" class="contact__input" id="name" required placeholder="First Name">
+                         <label for="name" class="contact__label">First Name</label>
+                      </div>
+                      <div class="contact__box">
+                         <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Email Address">
+                         <label for="email" class="contact__label">Email Address</label>
+                      </div>
+                   </div>
+
+                   <div class="contact__box">
+                      <input type="text" name="user_subject" class="contact__input" id="subject" required placeholder="Subject">
+                      <label for="Subject" class="contact__label">Subject</label>
+                   </div>
+
+                   <div class="contact__box contact__area">
+                      <textarea name="user_message" id="message"  class="contact__input" required placeholder="Message"></textarea>
+                      <label for="message" class="contact__label">Message</label>
+                   </div>
+
+                   <p  class="contact__message" id="contact-message"></p>
+
+                   <button type=submit class="contact__button button">Send Message
+                   </button>
+                </form>
+             </div>
+
+
+          </div>
+       </section>
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  </body>
+</html>
